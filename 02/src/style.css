@@ -130,6 +130,10 @@ h2{
      text-shadow: 0px 3px 10px var(--red4);
     animation: direita 2s ease-in-out;
 }
+.vid{
+    height: 920px;
+    width: 100%;
+}
 
 @keyframes direita {
     0%{
@@ -138,7 +142,23 @@ h2{
     }
 }
 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 60px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
 
+footer.ft{
+    background-color: var(--red1);
+    box-shadow: 10px 3px 10px var(--red1);
+}
 
 
 @media (width <= 1000px){
@@ -147,5 +167,14 @@ h2{
     }
     #s1{
         background-image: url("../assets/icons/mobile.png");
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    h1{
+        line-height: 120px;
+    }
+    h2{
+        margin-top: 10px;
     }
 }
+
