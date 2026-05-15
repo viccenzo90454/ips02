@@ -1,67 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Need For Speed Most Wanted</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
 </head>
+
 <body>
+
     <nav>
+
         <span class="navItems" onclick="navTo('s1')">
-            <img src="../assets/icons/home.png" alt="Empresa" >
+            <img src="../assets/icons/home.png" alt="Empresa" />
             <a class="navWords">Empresa</a>
         </span>
+
         <span class="navItems" onclick="navTo('s2')">
-            <img src="../assets/icons/box.png" alt="Carros" >
+            <img src="../assets/icons/box.png" alt="Carros" />
             <a class="navWords">Carros</a>
         </span>
+
         <span class="navItems" onclick="navTo('s3')">
-            <img src="../assets/icons/video.png" alt="Vídeo" >
+            <img src="../assets/icons/video.png" alt="Vídeo" />
             <a class="navWords">Vídeo</a>
         </span>
+
         <span class="navItems" onclick="navTo('s4')">
-            <img src="../assets/icons/mobile.png" alt="Contato" >
-            <a class="navWords" >Contato</a>
+            <img src="../assets/icons/mobile.png" alt="Contato" />
+            <a class="navWords">Contato</a>
         </span>
+
     </nav>
+
     <main>
+
         <section id="s1">
+
             <h1>BMW M3 GTR</h1>
-            <h2>O melhor carro esportivo do mundo.</h2>
+
+            <h2>
+                O melhor carro esportivo do mundo.
+            </h2>
+
         </section>
+
         <section id="s2">
-            <iframe class="vid"
-                src="https://www.youtube.com/embed/JdkZaxGD4tY"
-                title="YouTube video player"
-                frameborder="0"
+
+            <div class="card">
+
+                <img src="../assets/icons/01.jpg" alt="Corridas ilegais" width="300px" height="auto" />
+
+                <div>
+
+                    <h4>Corridas Ilegais</h4>
+
+                    <p>
+                        Dispute corridas intensas pelas ruas da cidade
+                        e fuja da polícia em alta velocidade.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <img src="../assets/icons/02.jpg" alt="BMW M3 GTR" width="300px" height="auto" />
+
+                <div>
+
+                    <h4>BMW M3 GTR</h4>
+
+                    <p>
+                        O lendário BMW M3 GTR é o carro mais icônico
+                        da franquia Need for Speed.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <img src="../assets/icons/03.jpg" alt="Lista Blacklist" width="300px" height="400px" />
+
+                <div>
+
+                    <h4>Lista Blacklist</h4>
+
+                    <p>
+                        Derrote os melhores pilotos da Blacklist
+                        para se tornar o corredor mais procurado.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="s3">
+
+            <iframe class="vid" src="https://www.youtube.com/embed/JdkZaxGD4tY"
+                title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
-          
-        </section>
-        <section id="s3">
 
-        </section>                                                                                                                 
+        </section>
+
         <section id="s4">
 
         </section>
+
     </main>
+
     <footer>
+
         <a href="https://www.facebook.com">
-            <img width="40px" src="../assets/icons/facebook.png" alt="facebook">
+            <img src="../assets/icons/facebook.png" alt="Facebook" width="40px" />
         </a>
-        <a href="https://www.intagram.com">
-            <img width="40px" src="../assets/icons/instagram.png" alt="intagram">
+
+        <a href="https://www.instagram.com">
+            <img src="../assets/icons/instagram.png" alt="Instagram" width="40px" />
         </a>
+
         <a href="https://www.linkedin.com">
-            <img width="40px" src="../assets/icons/linkedin.png" alt="linkedin">
+            <img src="../assets/icons/linkedin.png" alt="LinkedIn" width="40px" />
         </a>
+
     </footer>
 
     <script src="script.js"></script>
+
 </body>
+
 </html>
